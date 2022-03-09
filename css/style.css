@@ -724,8 +724,14 @@ h5 {
 
     /* Comienzo Contactos */
 
-
-
+    .form {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.7rem;
+    }
+    .tituloC {
+        font-size: 0.75rem;
+    }
 
 }
 
@@ -949,4 +955,13 @@ h5 {
     }
       
     /* Fin Elaboration */
+
+    /* Comienzo Contacts */
+
+    .form {
+        font-size: 0.5rem;
+    }
+    .tituloC {
+        font-size: 0.5rem;
+    }
 }
