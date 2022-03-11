@@ -144,10 +144,7 @@ body {
     font-size: 30px;
     color:rgb(42, 106, 167);
 }
-.instagram img {
-    width: 30px;
-    margin: -4px;
-}
+
 .mail {
     font-size: 33px;
     color: black;
@@ -454,9 +451,10 @@ h5 {
     text-decoration:underline;
 }
 .elab {
-    width: 100%;
-    border-radius: 5%;
+    max-width: 100%;
+    /* border-radius: 5%; */
     padding-bottom: 20px;
+    
 }
 .parrafoE {
     font-size: 1rem;
@@ -608,17 +606,14 @@ h5 {
     .mail {
         font-size: 1rem;
     }
-    .instagram img {
-        width: 1rem;
-        padding-bottom: 1.5px;
-    }
+
 
     .home  {
         position:fixed;
         width:20px;
         height:20px;
-        bottom:15px;
-        right:15px;
+        bottom:25px;
+        right:40px;
         font-size: 20px;
     }
   
@@ -706,7 +701,7 @@ h5 {
     }
     .elab {
         max-width: 100%;
-        border-radius: 5%;
+        /* border-radius: 5%; */
         padding-bottom: 20px;
     }
     .parrafoE {
@@ -764,8 +759,7 @@ h5 {
         font-size: 0.2rem;
     }
     .logo {
-        width: 30px;
-        height: 30px;         
+        border-radius: 50%;
     }
     .navbar-toggler-icon {
         width: 20px;
