@@ -54,7 +54,7 @@ body {
 
 
 .carousel-item  img {
-    object-fit: cover;
+    object-fit:cover;
     height: 90vh;
     max-width: 100%;
     filter: brightness(60%);
@@ -269,6 +269,7 @@ footer {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-bottom: 30px;
 }
 .parrafo__3 {
     color: wheat;
@@ -276,6 +277,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 30px;
 }
 
 .caribe {
@@ -296,6 +298,7 @@ footer {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-bottom: 30px;
 }
 .parrafo__4 {
     color: black;
@@ -303,6 +306,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 30px;
 }
 .rio {
     width: 100%;
@@ -325,6 +329,7 @@ footer {
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-bottom: 30px;
 }
 .parrafo__5 {
     color: wheat;
@@ -332,6 +337,7 @@ footer {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    padding-top: 50px;
 }
     
 
@@ -361,6 +367,13 @@ footer {
     "redes redes redes"
     "footer footer footer";
     
+}
+
+.titulo__5 {    
+    font-family: 'Lobster Two', cursive;
+    font-size: 6rem;
+    text-align: center;
+    padding: 20px;
 }
 
 .container1 {
@@ -426,20 +439,23 @@ h5 {
 }
 
 .imagenDiv img {
-    width: 100%;
+    max-width: 100%;
     filter: brightness(50%);
 }
 .planta {
     width: 100%;
     filter: brightness(60%);
+    padding-bottom: 10px;
 }
 .cafe2 {
     width: 100%;
     filter: brightness(60%);
+    padding-bottom: 10px;
 }
 .cafe3 {
     width: 100%;
     filter: brightness(60%);
+    padding-bottom: 10px;
 }
 .footer {
     grid-area: footer;
@@ -641,6 +657,13 @@ h5 {
 
     /* Comienzo beneficios */
   
+    .titulo__5 {    
+        font-family: 'Lobster Two', cursive;
+        font-size: 3rem;
+        text-align: center;
+        padding: 20px;
+    }
+
     .container1 {
         grid-column: span 3;
     }
@@ -700,6 +723,7 @@ h5 {
         top: 38%;
         left: 50%;
         transform: translate(-50%, -50%);
+        padding-bottom: 40px;
     }
     /* Fin Productos  */
   
@@ -846,7 +870,12 @@ h5 {
 
     /* Comienzo beneficios */
     
-    
+    .titulo__5 {    
+        font-family: 'Lobster Two', cursive;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 20px;
+    }
         .container1 {
             grid-column: span 3;
             font-size: 0.7rem;
@@ -947,25 +976,27 @@ h5 {
 
     .titulo__2 {
         font-size: 1rem;
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
     .parrafo__3 {
         font-size: 0.5rem;
+        padding-top: 30px;
     }
 
     .titulo__3 {
         font-size: 1rem;
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
     .parrafo__4 {
         font-size: 0.5rem;
     }
     .titulo__4 {
         font-size: 1rem;
-        padding-bottom: 20px;
+        padding-bottom: 60px;
     }
     .parrafo__5{
         font-size: 0.5rem;
+        padding-top: 20px;
     }
     .articulo__1 {
         font-size: 0.7rem;
