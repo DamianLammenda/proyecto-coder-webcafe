@@ -51,17 +51,21 @@ body {
 }
 
 /* Estilos a la lista de imagenes y sus parrafos */
-.img__main {
-    width: 100%;
-    /* border-radius: 1%; */
-    filter: brightness(80%);
-}
-.tituloPrincipal {
-    text-align: center;
-    font-size: 60px;
-    color: brown;
-    text-decoration: underline;
-    padding: 30px 0 30px 0;
+
+
+.carousel-item  img {
+    object-fit: cover;
+    height: 90vh;
+    max-width: 100%;
+    filter: brightness(60%);
+    padding: 30px;
+  }
+
+.tituloPrincipal {    
+        font-family: 'Lobster Two', cursive;
+        font-size: 7rem;
+        text-align: center;
+        padding: 20px;
 }
 
 
@@ -528,6 +532,16 @@ h5 {
 @media screen and (max-width: 1024px) {
 
     /* Index */
+
+    .carousel-item  img {
+        object-fit: cover;
+        height: 50vh;
+        max-width: 100%;
+        filter: brightness(60%);
+        padding: 30px;
+      }
+
+
     .nav__menu {
         flex-direction: column;
 
@@ -548,7 +562,7 @@ h5 {
     }
     .tituloPrincipal {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 3rem;
     }
     ul.img__list {
         flex-direction: column;
@@ -557,15 +571,16 @@ h5 {
     }
     .img__1 {
         padding-bottom: 0.5rem;
+        width: 50%;
                 
     }
     .img__2 {
         padding-bottom: 0.5rem;
-       
+        width: 50%;
     }
     .img__3 {
         padding-bottom: 0.5rem;
-      
+        width: 50%;
     }
     .parrafos {
         flex-direction: column;
@@ -755,6 +770,16 @@ h5 {
     /* Modelo mobile */
 @media screen and (max-width: 600px) {
     /* Index */
+
+    .carousel-item  img {
+        object-fit: cover;
+        height: 30vh;
+        max-width: 100%;
+        filter: brightness(60%);
+        padding: 10px;
+      }
+
+
     .nav__list li a {
         font-size: 0.2rem;
     }
@@ -779,22 +804,21 @@ h5 {
         width:100% ;
     }
     .tituloPrincipal {
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
     .img__1 {
         padding-bottom: 0.5rem;
-        width: 30%;
-        
-        
+        width: 50%;
+
     }
     .img__2 {
         padding-bottom: 0.5rem;
-        width: 30%;
+        width: 50%;
         
     }
     .img__3 {
         padding-bottom: 0.5rem;
-        width: 30%;
+        width: 50%;
         
     }
     .parrafos {

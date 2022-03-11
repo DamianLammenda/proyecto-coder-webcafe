@@ -10,6 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <title>Beneficios</title>
     </head>
     <body>
@@ -31,7 +32,6 @@
                     </div>
                   </div>
                 </div>
-              </nav>
             </nav>
         </header>
         <main class="mainPrincipal">
@@ -42,7 +42,7 @@
                         </h2>
                     </div>
                     <div class="imagenDiv">
-                        <img src="../img/coffe.jpg" alt="cafe">
+                        <img src="../img/coffe.jpg" alt="cafe" data-aos="zoom-in">
                     </div>
             </section>
             <section class="container2">
@@ -56,9 +56,9 @@
             </section>
             <section  class="container3">
                 <article class="contenedorImagenes">
-                    <img class="planta" src="../img/granos1.jpg "   alt="planta" >
-                     <img class="cafe2" src="../img/cafe2.jpeg" alt="cafe2">
-                    <img class="cafe3" src="../img/cafe3.jpeg" alt="cafe3">
+                    <img class="planta" src="../img/granos1.jpg " data-aos="zoom-in-up"  alt="planta" >
+                     <img class="cafe2" src="../img/cafe2.jpeg" data-aos="zoom-in-up" alt="cafe2">
+                    <img class="cafe3" src="../img/cafe3.jpeg" data-aos="zoom-in-up" alt="cafe3">
                 </article>
                 
             </section>
@@ -118,8 +118,13 @@
 
 
         <footer class="footer"> © 2022 TODOS LOS DERECHOS RESERVADOS. Lammeda Damián </footer>
-
+        <!-- CDN JS de Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <!-- CDN JS de AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+          </script>
 
     </body>
 </html>
