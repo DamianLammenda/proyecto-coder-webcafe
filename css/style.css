@@ -46,6 +46,11 @@ body {
     text-align: center;
 
 }
+.btn {
+    color: rgb(77, 68, 59);
+    
+}
+
 
 
 /* Titulo de las redes sociales */
@@ -606,9 +611,9 @@ h5 {
     }
     .tituloE {
         text-align: center;
-        font-size: 1.5rem;
-        padding: 20px;
-        text-decoration:underline;
+        font-size: 3rem;
+        padding: 30px;
+        
     }
     .elab {
         max-width: 100%;
@@ -842,18 +847,14 @@ h5 {
     }
     .tituloE {
         text-align: center;
-        font-size: 1rem;
+        font-size: 2.5rem;
         padding: 20px;
         text-decoration:underline;
     }
    
-    .parrafoE {
-        font-size: 0.6rem;
-        text-align: center;
-        padding-bottom: 20px;
-    }
+ 
     .tituloE2 {
-        font-size: 1rem;
+        font-size: 1.5rem;
         text-align: center;
         padding: 30px;
     }
