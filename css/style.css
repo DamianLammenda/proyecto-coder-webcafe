@@ -780,6 +780,10 @@ h5 {
 
     /* Comienzo Productos */
     
+    .variedad {
+        margin-top: 20px;
+        
+    }
     
     .tituloVariedad {
         font-size: 1rem;
