@@ -668,20 +668,20 @@ h5 {
         }
         
         .contenedorParrafo {
-            font-size: 0.5rem;
+            font-size: 0.7rem;
             padding: 10px;
         }
         .contenedorTilulo2 {
             font-size: 0.7rem;
         }
         .contenedorParrafo2 {
-            font-size: 0.5rem;
+            font-size: 0.7rem;
         }
         .contenedorTilulo3 {
             font-size: 0.7rem;
         }
         .contenedorParrafo3 {
-            font-size: 0.5rem;
+            font-size: 0.7rem;
         }
         .container2 {
             grid-column: span 3;
