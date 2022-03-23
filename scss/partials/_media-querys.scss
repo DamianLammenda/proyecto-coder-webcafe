@@ -1,0 +1,391 @@
+/* Comienzo de medias query's */
+
+/* Modelo Tablet */
+@media screen and (max-width: 1024px) {
+
+    /* Index */
+
+    .carousel-item  img {
+        object-fit: cover;
+        height: 50vh;
+        max-width: 100%;
+        filter: brightness(60%);
+        padding: 30px;
+      }
+   
+    .tituloPrincipal {
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    
+    .card-img-top {
+        max-height: 100%;
+    }
+   
+    .card-title {
+        font-size: 1.5rem;
+    }
+    .card-text {
+        font-size: 0.80rem;
+    }
+    /* .btn-primary {
+        font-size: 0.7rem;
+    }
+    .btn-primary:hover {
+        cursor: pointer;
+    } */
+
+    /* boton */
+    
+
+
+
+
+    .seguinos {
+        text-align: center;
+        font-size: 1rem;
+    }
+    .redes {
+        text-align: center;
+        padding-bottom: 1.5rem;
+    }
+    .facebook {
+        font-size: 2rem;
+    }
+    .twitter {
+        font-size: 2rem;
+    }
+    .mail {
+        font-size: 2rem;
+    }
+
+
+    .home  {
+        position:fixed;
+        width:20px;
+        height:20px;
+        bottom:25px;
+        right:40px;
+        font-size: 20px;
+    }
+  
+   
+    footer {
+        font-size: 0.8rem;
+        padding: 1rem;
+    }
+    /* Fin Index */
+
+    /* Comienzo beneficios */
+  
+    .titulo__5 {    
+        font-family: 'Lobster Two', cursive;
+        font-size: 3rem;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .container1 {
+        grid-column: span 3;
+    }
+   
+   
+    .container2 {
+        
+        grid-column: span 2;
+        text-align: center;
+        font-size: 1rem;
+        grid-area: container2;
+        padding: 20px;
+        margin-bottom: 20px;
+        background-color: rgb(53, 18, 18);
+        color: wheat;
+    
+    }
+    .container3 {
+        grid-column: span 3;
+    }
+    .container4 {
+        grid-column: span 3;
+    }
+    .seguinos {
+        grid-column: span 3;
+    }
+    .redes {
+        grid-column: span 3;
+    }
+    .footer {
+        grid-column: span 3;
+    }
+    /* Fin beneficios */
+
+    /* Comiendo Productos */
+
+    .flexContainer {
+        display: flex;
+        flex-direction: column ;
+    }
+   
+    .flexContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+
+
+    .titulo__4 {
+        color: wheat;
+        position: absolute;
+        top: 38%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding-bottom: 40px;
+    }
+    /* Fin Productos  */
+  
+    /* Comienzo Elaboration */
+    .containerE1 {
+        width: 90%;
+        
+    }
+    .tituloE {
+        text-align: center;
+        font-size: 3rem;
+        padding: 30px;
+        
+    }
+    .elab {
+        max-width: 100%;
+        /* border-radius: 5%; */
+        padding-bottom: 20px;
+    }
+    .parrafoE {
+        font-size: 1rem;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .tituloE2 {
+        font-size: 2rem;
+        text-align: center;
+        padding: 30px;
+    }
+    .containerE2 {
+        display: flex;    
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
+    .containerE2 iframe{
+        max-width: 100%;
+    }
+    /* Fin Elaboration */
+
+    /* Comienzo Contactos */
+
+    .form {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.7rem;
+    }
+    .tituloC {
+        font-size: 0.75rem;
+    }
+
+}
+
+    /* Modelo mobile */
+@media screen and (max-width: 600px) {
+    /* Index */
+
+    .carousel-item  img {
+        object-fit: cover;
+        height: 30vh;
+        max-width: 100%;
+        filter: brightness(60%);
+        padding: 10px;
+      }
+
+
+ 
+    .logo {
+        border-radius: 50%;
+    }
+    .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    
+    img.img__main {
+        width:100% ;
+    }
+    .tituloPrincipal {
+        font-size: 2.5rem;
+    }
+    
+    footer {
+        font-size: 0.5rem;
+        padding: 1rem;
+    }
+    /* Fin index */
+    
+
+    /* Comienzo beneficios */
+    
+    .titulo__5 {    
+        font-family: 'Lobster Two', cursive;
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 20px;
+    }
+        .container1 {
+            grid-column: span 3;
+            font-size: 0.7rem;
+        }
+        .parrafo6 {
+            font-size: 0.5rem;
+            
+        }
+        .contenedorTilulo {
+            font-size: 0.7rem;
+            
+        }
+        
+        .contenedorParrafo {
+            font-size: 0.7rem;
+            padding: 10px;
+        }
+        .contenedorTilulo2 {
+            font-size: 0.7rem;
+        }
+        .contenedorParrafo2 {
+            font-size: 0.7rem;
+        }
+        .contenedorTilulo3 {
+            font-size: 0.7rem;
+        }
+        .contenedorParrafo3 {
+            font-size: 0.7rem;
+        }
+        .container2 {
+            grid-column: span 3;
+            font-size: 0.7rem;
+        }
+        .container3 {
+            grid-column: span 3;
+        }
+        .container4 {
+            grid-column: span 3;
+        }
+        .seguinos {
+            grid-column: span 3;
+        }
+        .redes {
+            grid-column: span 3;
+        }
+        .footer {
+            grid-column: span 3;
+        }
+
+    /* Fin beneficios */
+
+    /* Comienzo Productos */
+    
+    .variedad {
+        margin-top: 20px;
+        
+    }
+    
+    .tituloVariedad {
+        font-size: 1rem;
+    }
+    .tipoCafe {
+        font-size: 0.7rem;
+    }
+
+    .flexContainer {
+        display: flex;
+        flex-direction: column ;
+    }
+    .titulo__1 {
+        font-size: 1rem;
+    }
+    .parrafo__1 {
+        font-size: 0.7rem;
+    }
+    .flexContainer img {
+        width: 200px;
+   
+    }
+   
+    .flexContainer2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .flexContainer2 img {
+        width: 250px;
+    }
+  
+    .parrafo__2 {
+        font-size: 0.7rem;
+        padding-bottom: 20px;
+    }
+
+ 
+
+
+    .titulo__4 {
+        font-size: 1rem;
+        padding-bottom: 60px;
+    }
+    .parrafo__5{
+        font-size: 0.5rem;
+        padding-top: 20px;
+    }
+    .articulo__1 {
+        font-size: 0.7rem;
+    }
+   /* Fin Productos  */
+
+    /* Comienzo Elaboration */
+
+    .tituloE {
+        text-align: center;
+        font-size: 1.5rem;
+        text-decoration:underline;
+    }
+   
+ 
+    .tituloE2 {
+        font-size: 1.5rem;
+        text-align: center;
+        padding: 30px;
+    }
+      
+    /* Fin Elaboration */
+
+    /* Comienzo Contacts */
+    .formularios {
+        max-width: 90%;
+    }
+    .form-select {
+        font-size: 0.6rem;   
+    }
+    .form-label {
+        font-size: 0.8rem;
+    }
+    .form-floating {
+        font-size: 0.6rem;
+    }
+    .btn-comment .btn {
+        font-size: 0.5rem;
+    }
+    #exampleFormControlInput1 {
+        font-size: 0.6rem;
+    }
+    .tituloComment {
+      text-align: center;
+      font-size: 2rem;
+  }
+}
