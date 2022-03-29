@@ -158,7 +158,13 @@ body {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(6, auto);
   /* background-color: yellow; */
-  grid-template-areas: "container1 container1 container1" "container2 container2 container2" "container3 container3 container3" "container4 container4 container4" "seguinos seguinos seguinos" "redes redes redes" "footer footer footer"; }
+  grid-template-areas: "container1 container1 container1"
+ "container2 container2 container2"
+ "container3 container3 container3"
+ "container4 container4 container4"
+ "seguinos seguinos seguinos"
+ "redes redes redes"
+ "footer footer footer"; }
 
 .titulo__5 {
   font-family: 'Lobster Two', cursive;
