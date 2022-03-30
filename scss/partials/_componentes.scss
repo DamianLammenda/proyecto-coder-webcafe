@@ -100,9 +100,10 @@
 }
 
 .flexContainer {
-    display: flex;
-    align-items:center;
-    justify-content: left;
+    @include flex(left, center);
+    // display: flex;
+    // align-items:center;
+    // justify-content: left;
 
 }
 
@@ -135,9 +136,10 @@
 }
 
 .flexContainer2 {
-    display: flex;
-    align-items:center;
-    justify-content: right;
+    @include flex(right, center);
+    // display: flex;
+    // align-items:center;
+    // justify-content: right;
 
 }
 .flexContainer2 {
@@ -320,8 +322,9 @@ h5 {
     padding: 30px;
 }
 .containerE2 {
-    display: flex;    
-    align-items: center;
+    @include flex(stretch, center);
+    // display: flex;    
+    // align-items: center;
     flex-direction: column;
     padding-bottom: 30px;
 }
