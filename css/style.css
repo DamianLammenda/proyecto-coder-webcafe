@@ -307,6 +307,7 @@ h5 {
 footer {
   display: flex;
   justify-content: flex-end;
+  align-items: stretch;
   font-size: 12px; }
 
 /* Comienzo de medias query's */
