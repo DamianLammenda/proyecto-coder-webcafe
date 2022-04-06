@@ -5,17 +5,33 @@
     height: 90vh;
     max-width: 100%;
     filter: brightness(60%);
-    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     }
     
 }
 
-.tituloPrincipal {    
-        font-family: 'Lobster Two', cursive;
-        font-size: 7rem;
-        text-align: center;
-        padding: 20px;
-}
+.homeP {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(../img/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+    
+  }
+
+  .homeP .content h3 {
+    font-family: 'Roboto Serif', sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    opacity: 0.4;
+    font-size: 6.5rem;
+    color: wheat;
+  }
+
 
 /* Estilos de las Cards */
 .card {
@@ -182,39 +198,43 @@
 /* A partir de acá corresponde a la pagina benefit */
 
 
-.mainPrincipal {
-    
-   
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(6, auto);
-    /* background-color: yellow; */
-    grid-template-areas: 
+// .mainPrincipal {
+//     display: grid;
+//     grid-template-columns: repeat(3, 1fr);
+//     grid-template-rows: repeat(6, auto);
+//     /* background-color: yellow; */
+//     grid-template-areas: 
   
-    "container1 container1 container1"
-    "container2 container2 container2"
-    "container3 container3 container3"
-    "container4 container4 container4"
-    "seguinos seguinos seguinos"
-    "redes redes redes"
-    "footer footer footer";
+//     "container1 container1 container1"
+//     "container2 container2 container2"
+//     "container3 container3 container3"
+//     "container4 container4 container4"
+//     "seguinos seguinos seguinos"
+//     "redes redes redes"
+//     "footer footer footer";
     
-}
+// }
 
-.titulo__5 {    
-    font-family: 'Lobster Two', cursive;
-    font-size: 6rem;
+.titulo__5 {
+    font-size: 5rem;
     text-align: center;
     padding: 20px;
-}
-
-.container1 {
-    /* background-color: blue; */
-    /* grid-column: span 2; */
-    text-align: center;
-    font-size: 1rem;
-    grid-area: container1;
+    color: $colorPrincipal;
+    opacity: 0.7;
     
+}
+.fondoTitulo {
+    display: flex;
+    justify-content: center;
+    background: url(../img/coffe1.jpg) no-repeat;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+}
+.container1 {
+    margin-top: 20px;
+    grid-area: container1;
+   
 }
 
 .container2 {

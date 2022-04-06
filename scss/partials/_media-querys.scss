@@ -10,15 +10,29 @@
         height: 50vh;
         max-width: 100%;
         filter: brightness(60%);
-        padding: 30px;
-      }
-   
-    .tituloPrincipal {
-        text-align: center;
-        font-size: 4rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
-
+   
+      .homeP {
+        justify-content: flex-start;
+        min-height: 50vh;
+        background: url(../img/home-img.jpeg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 20px;
+        
+    }
     
+      .homeP .content h3 {
+        font-family: 'Roboto Serif', sans-serif;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-top: 20px;
+        opacity: 0.4;
+        font-size: 3.5rem;
+        color: wheat;
+    }   
     .card-img-top {
         max-height: 100%;
     }
@@ -29,19 +43,6 @@
     .card-text {
         font-size: 0.80rem;
     }
-    /* .btn-primary {
-        font-size: 0.7rem;
-    }
-    .btn-primary:hover {
-        cursor: pointer;
-    } */
-
-    /* boton */
-    
-
-
-
-
     .seguinos {
         text-align: center;
         font-size: 1rem;
@@ -79,12 +80,20 @@
 
     /* Comienzo beneficios */
   
-    .titulo__5 {    
-        font-family: 'Lobster Two', cursive;
-        font-size: 3rem;
-        text-align: center;
-        padding: 20px;
-    }
+    .fondoTitulo {
+    background: url(../img/coffe1.jpg) no-repeat;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+   .titulo__5 {
+    font-size: 3.8rem;
+    text-align: center;
+    padding: 20px;
+    color: $colorPrincipal;
+    opacity: 0.7;
+    
+}
 
     .container1 {
         grid-column: span 3;
@@ -203,26 +212,38 @@
         height: 30vh;
         max-width: 100%;
         filter: brightness(60%);
-        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
       }
-
-
- 
     .logo {
         border-radius: 50%;
     }
     .navbar-toggler-icon {
         width: 20px;
         height: 20px;
-    }
-
-    
+    } 
     img.img__main {
         width:100% ;
     }
-    .tituloPrincipal {
-        font-size: 2.5rem;
-    }
+    .homeP {
+        min-height: 30vh;
+        background: url(../img/home-img.jpeg) no-repeat;
+        filter: brightness(80%);
+        background-size: cover;
+        background-position: center;
+        
+      }
+    
+      .homeP .content h3 {
+        font-family: 'Roboto Serif', cursive;
+        margin-top: 20px;
+        font-size: 1.5rem;
+        color: wheat;
+        opacity: 0.4;
+        padding-left: 20px;
+        padding-top: 0;
+      }
+  
     
     footer {
         font-size: 0.5rem;
@@ -233,60 +254,58 @@
 
     /* Comienzo beneficios */
     
-    .titulo__5 {    
-        font-family: 'Lobster Two', cursive;
-        font-size: 1.5rem;
-        text-align: center;
-        padding: 20px;
+    .fondoTitulo {
+        background: url(../img/coffe1.jpg) no-repeat;
+        min-height: 40vh;
+        background-size: cover;
+        background-position: center;
     }
-        .container1 {
-            grid-column: span 3;
-            font-size: 0.7rem;
-        }
-        .parrafo6 {
+    .titulo__5 {
+        font-size: 1.5rem;    
+    }
+    .parrafo6 {
             font-size: 0.5rem;
             
         }
-        .contenedorTilulo {
+    .contenedorTilulo {
             font-size: 0.7rem;
             
-        }
-        
-        .contenedorParrafo {
+    }    
+    .contenedorParrafo {
             font-size: 0.7rem;
             padding: 10px;
-        }
-        .contenedorTilulo2 {
+    }
+    .contenedorTilulo2 {
             font-size: 0.7rem;
-        }
-        .contenedorParrafo2 {
+    }
+    .contenedorParrafo2 {
             font-size: 0.7rem;
-        }
-        .contenedorTilulo3 {
+    }
+    .contenedorTilulo3 {
             font-size: 0.7rem;
-        }
-        .contenedorParrafo3 {
+    }
+    .contenedorParrafo3 {
             font-size: 0.7rem;
-        }
-        .container2 {
+    }
+    .container2 {
             grid-column: span 3;
             font-size: 0.7rem;
-        }
-        .container3 {
+    }
+    .container3 {
             grid-column: span 3;
-        }
-        .container4 {
+    }
+    .container4 {
             grid-column: span 3;
-        }
-        .seguinos {
+    }
+    .seguinos {
             grid-column: span 3;
-        }
-        .redes {
+    }
+    .redes {
             grid-column: span 3;
-        }
-        .footer {
+    }
+    .footer {
             grid-column: span 3;
-        }
+    }
 
     /* Fin beneficios */
 
