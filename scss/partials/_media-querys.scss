@@ -169,7 +169,7 @@
     .tituloE {
         text-align: center;
         font-size: 3rem;
-        padding: 30px;
+        margin-top: 30px;
         
     }
     .elab {
@@ -230,9 +230,6 @@
         width: 20px;
         height: 20px;
     } 
-    img.img__main {
-        width:100% ;
-    }
     .homeP {
         min-height: 30vh;
         background: url(../img/home-img.jpeg) no-repeat;
@@ -312,7 +309,6 @@
         flex-direction: column-reverse ;
     }
     .titulo__1 {
-        text-align: center;
         font-size: 2.5rem;
     }
     .parrafo__1 {
@@ -349,8 +345,7 @@
 
     .tituloE {
         text-align: center;
-        font-size: 1.5rem;
-        text-decoration:underline;
+        font-size: 2rem;
     }
    
  
