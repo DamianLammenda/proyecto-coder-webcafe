@@ -51,7 +51,7 @@ body {
   text-align: center; }
 
 .card-img-top {
-  min-height: 300px; }
+  min-height: 400px; }
 
 .btn {
   color: #4d443b; }
@@ -107,6 +107,12 @@ body {
   text-align: center;
   color: #9c9090; }
 
+.card .mb-3 {
+  max-width: 100%; }
+
+.row {
+  align-items: center; }
+
 .tipoCafe {
   color: #9c9090;
   padding-top: 10px;
@@ -114,40 +120,45 @@ body {
 
 .flexContainer {
   display: flex;
-  justify-content: left;
-  align-items: center; }
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px; }
 
 .flexContainer img {
-  width: 400px;
-  padding-top: 20px;
+  width: 500px;
   filter: brightness(60%); }
 
 .titulo__1 {
-  font-size: 30px;
+  font-size: 3.5rem;
   padding: 15px;
+  text-align: center;
   color: #351212; }
 
 .parrafo__1 {
-  text-align: justify;
-  font-size: 18px;
-  width: 300px;
-  padding-right: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 400px;
+  padding-left: 30px;
   color: black; }
 
 .parrafo__2 {
-  text-align: justify;
-  font-size: 18px;
-  width: 300px;
-  padding-right: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  width: 400px;
+  padding-left: 30px;
   color: black; }
 
 .flexContainer2 {
   display: flex;
-  justify-content: right;
-  align-items: center; }
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row-reverse;
+  margin-top: 30px; }
 
 .flexContainer2 img {
   width: 500px;
+  height: 600px;
+  object-fit: cover;
   filter: brightness(60%);
   margin-bottom: 20px;
   margin-top: 20px; }
@@ -352,7 +363,7 @@ footer {
     font-size: 3.5rem;
     color: wheat; }
   .card-img-top {
-    max-height: 100%; }
+    min-height: 300px; }
   .card-title {
     font-size: 1.5rem; }
   .card-text {
@@ -416,11 +427,17 @@ footer {
   /* Fin beneficios */
   /* Comiendo Productos */
   .flexContainer {
-    display: flex;
-    flex-direction: column; }
+    flex-direction: column-reverse; }
+  .parrafo__1 {
+    text-align: center;
+    font-size: 1.5rem;
+    width: auto; }
   .flexContainer2 {
-    display: flex;
-    flex-direction: column; }
+    flex-direction: column-reverse; }
+  .parrafo__2 {
+    text-align: center;
+    font-size: 1.5rem;
+    width: auto; }
   .titulo__4 {
     color: wheat;
     position: absolute;
@@ -509,26 +526,11 @@ footer {
     font-size: 1.5rem; }
   .parrafo6 {
     font-size: 0.5rem; }
-  .contenedorTilulo {
-    font-size: 0.7rem; }
-  .contenedorParrafo {
-    font-size: 0.7rem;
-    padding: 10px; }
-  .contenedorTilulo2 {
-    font-size: 0.7rem; }
-  .contenedorParrafo2 {
-    font-size: 0.7rem; }
-  .contenedorTilulo3 {
-    font-size: 0.7rem; }
-  .contenedorParrafo3 {
-    font-size: 0.7rem; }
   .container2 {
     grid-column: span 3;
     font-size: 0.7rem; }
-  .container3 {
-    grid-column: span 3; }
-  .container4 {
-    grid-column: span 3; }
+  .card-img-top {
+    min-height: auto; }
   .seguinos {
     grid-column: span 3; }
   .redes {
@@ -544,22 +546,20 @@ footer {
   .tipoCafe {
     font-size: 0.7rem; }
   .flexContainer {
-    display: flex;
-    flex-direction: column; }
+    flex-direction: column-reverse; }
   .titulo__1 {
-    font-size: 1rem; }
+    font-size: 2.5rem; }
   .parrafo__1 {
-    font-size: 0.7rem; }
+    font-size: 0.9rem; }
   .flexContainer img {
-    width: 200px; }
+    width: 300px; }
   .flexContainer2 {
-    display: flex;
-    flex-direction: column; }
+    flex-direction: column-reverse; }
   .flexContainer2 img {
-    width: 250px; }
+    width: 300px;
+    height: 300px; }
   .parrafo__2 {
-    font-size: 0.7rem;
-    padding-bottom: 20px; }
+    font-size: 0.9rem; }
   .titulo__4 {
     font-size: 1rem;
     padding-bottom: 60px; }
