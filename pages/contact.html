@@ -61,32 +61,34 @@
   <main>
     <h2 class="tituloComment"> <strong> Dejanos tu Comentario</h2> </strong>
     <!-- Formulario de Contacto -->
-    <div class="formularios">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email:</label>
-        <input type="email" required="obligatorio" class="form-control" id="exampleFormControlInput1"
-          placeholder="Tu correo">
+    <form action="">
+      <div class="formularios">
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Email:</label>
+          <input type="email" required class="form-control" id="exampleFormControlInput1"
+            placeholder="Tu correo">
+        </div>
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label">Tu comentario:</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Tu Comentario" required ></textarea>
+        </div>
+        <!-- selección de tipo de café -->
+        <div class="form-floating">
+          <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+            <option selected>Elegí tu estilo</option>
+            <option value="1">Robusta</option>
+            <option value="2">Arábica</option>
+          </select>
+          <label for="floatingSelect">¿Qué estilo de café es tu preferido?</label>
+        </div>
+        <div class="btn-comment">
+          <button type="submit" class="btn btn-secondary">Enviar <i class="fa-solid fa-mug-hot"></i></button>
+        </div>
+        <div class="imgcomment">
+          <img src="../img/contact1.webp" alt="Contacto">
+        </div>
       </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Tu comentario:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <!-- selección de tipo de café -->
-      <div class="form-floating">
-        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-          <option selected>Elegí tu estilo</option>
-          <option value="1">Robusta</option>
-          <option value="2">Arábica</option>
-        </select>
-        <label for="floatingSelect">¿Qué estilo de café es tu preferido?</label>
-      </div>
-      <div class="btn-comment">
-        <button type="submit" class="btn btn-secondary">Enviar <i class="fa-solid fa-mug-hot"></i></button>
-      </div>
-      <div class="imgcomment">
-        <img src="../img/contact1.webp" alt="Contacto">
-      </div>
-    </div>
+    </form>
 
     <h5 class="seguinos">Seguinos en las redes</h5>
     <div class="redes">
