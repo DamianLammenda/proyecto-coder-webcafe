@@ -50,8 +50,15 @@ body {
   margin-bottom: 30px;
   text-align: center; }
 
+.cardBen {
+  height: 40vh; }
+
+.cardHome {
+  height: 40vh; }
+
 .card-img-top {
-  min-height: 400px; }
+  height: 300px;
+  object-fit: cover; }
 
 .btn {
   color: #4d443b; }
@@ -347,6 +354,8 @@ footer {
     filter: brightness(60%);
     margin-top: 10px;
     margin-bottom: 10px; }
+  .cardHome {
+    height: auto; }
   .homeP {
     justify-content: flex-start;
     min-height: 50vh;
@@ -403,6 +412,8 @@ footer {
     padding: 20px;
     color: wheat;
     opacity: 0.7; }
+  .cardBen {
+    height: auto; }
   .container1 {
     grid-column: span 3; }
   .container2 {
@@ -496,6 +507,8 @@ footer {
   .navbar-toggler-icon {
     width: 20px;
     height: 20px; }
+  .cardHome {
+    height: auto; }
   .homeP {
     min-height: 30vh;
     background: url(../img/home-img.jpeg) no-repeat;
@@ -520,6 +533,8 @@ footer {
     min-height: 40vh;
     background-size: cover;
     background-position: center; }
+  .cardBen {
+    height: auto; }
   .titulo__5 {
     font-size: 1.5rem; }
   .parrafo6 {

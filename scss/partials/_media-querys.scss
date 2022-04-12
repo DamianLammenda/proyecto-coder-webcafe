@@ -13,8 +13,10 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-   
-      .homeP {
+    .cardHome {
+        height: auto;
+    }
+    .homeP {
         justify-content: flex-start;
         min-height: 50vh;
         background: url(../img/home-img.jpeg) no-repeat;
@@ -94,12 +96,13 @@
     opacity: 0.7;
     
 }
+    .cardBen {
+        height: auto;
+    }
 
     .container1 {
         grid-column: span 3;
-    }
-   
-   
+    } 
     .container2 {
         
         grid-column: span 2;
@@ -148,9 +151,6 @@
         font-size: 1.5rem;
         width: auto;
     }
-    
-
-
     .titulo__4 {
         color: wheat;
         position: absolute;
@@ -230,6 +230,9 @@
         width: 20px;
         height: 20px;
     } 
+    .cardHome {
+        height: auto;
+    }
     .homeP {
         min-height: 30vh;
         background: url(../img/home-img.jpeg) no-repeat;
@@ -264,6 +267,9 @@
         min-height: 40vh;
         background-size: cover;
         background-position: center;
+    }
+    .cardBen {
+        height: auto;
     }
     .titulo__5 {
         font-size: 1.5rem;    
