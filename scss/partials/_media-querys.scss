@@ -13,9 +13,9 @@
         margin-top: 10px;
         margin-bottom: 10px;
     }
-    .cardHome {
-        height: auto;
-    }
+    // .cardHome {
+    //     height: auto;
+    // }
     .homeP {
         justify-content: flex-start;
         min-height: 50vh;
@@ -212,7 +212,7 @@
 }
 
     /* Modelo mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px){
     /* Index */
 
     .carousel-item  img {
@@ -230,8 +230,8 @@
         width: 20px;
         height: 20px;
     } 
-    .cardHome {
-        height: auto;
+     .cardHome {
+        height: 100%;
     }
     .homeP {
         min-height: 30vh;

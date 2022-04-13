@@ -51,10 +51,10 @@ body {
   text-align: center; }
 
 .cardBen {
-  height: 40vh; }
+  height: 50vh; }
 
 .cardHome {
-  height: 40vh; }
+  height: 50vh; }
 
 .card-img-top {
   height: 300px;
@@ -353,8 +353,6 @@ footer {
     filter: brightness(60%);
     margin-top: 10px;
     margin-bottom: 10px; }
-  .cardHome {
-    height: auto; }
   .homeP {
     justify-content: flex-start;
     min-height: 50vh;
@@ -492,7 +490,7 @@ footer {
     font-size: 0.75rem; } }
 
 /* Modelo mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   /* Index */
   .carousel-item img {
     object-fit: cover;
@@ -507,7 +505,7 @@ footer {
     width: 20px;
     height: 20px; }
   .cardHome {
-    height: auto; }
+    height: 100%; }
   .homeP {
     min-height: 30vh;
     background: url(../img/home-img.jpeg) no-repeat;
