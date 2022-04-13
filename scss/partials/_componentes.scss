@@ -1,211 +1,186 @@
 /* Estilos para el carrusel */
 .carousel-item {
-    img {    
-    object-fit:cover;
+  img {
+    object-fit: cover;
     height: 90vh;
     max-width: 100%;
     filter: brightness(60%);
     margin-top: 10px;
     margin-bottom: 10px;
-    }
-    
+  }
+}
+.homeP {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background: url(../img/home-img.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 20px;
 }
 
-.homeP {
-    display: flex;
-    justify-content: center;
-    min-height: 100vh;
-    background: url(../img/home-img.jpeg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 20px;
-    
-  }
-
-  .homeP .content h3 {
-    font-family: 'Roboto Serif', sans-serif;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-top: 20px;
-    opacity: 0.4;
-    font-size: 6.5rem;
-    color: wheat;
-  }
-
-
+.homeP .content h3 {
+  font-family: "Roboto Serif", sans-serif;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  opacity: 0.4;
+  font-size: 6.5rem;
+  color: wheat;
+}
 /* Estilos de las Cards */
 .card {
-    margin: 0% auto;
-    background-color: $colorPrincipal;
-    margin-bottom: 30px;
-    text-align: center;
+  margin: 0% auto;
+  background-color: $colorPrincipal;
+  margin-bottom: 30px;
+  text-align: center;
 }
 .cardBen {
-    height: 50vh;
+  height: 50vh;
 }
 .cardHome {
-    height: 50vh;
+  height: 50vh;
 }
 .card-img-top {
-    height: 300px;
-    object-fit: cover;
+  height: 300px;
+  object-fit: cover;
 }
-
 .btn {
-    color: $colorBotones;
-    
+  color: $colorBotones;
 }
 
 /* Titulo de las redes sociales */
 .seguinos {
-    margin-top: 20px;
-    text-decoration: underline;
+  margin-top: 20px;
+  text-decoration: underline;
 }
 
 .redes {
-    margin-top: 20px;
-    padding-right: 10px;
+  margin-top: 20px;
+  padding-right: 10px;
 }
 .redes {
-    a {
-    padding-right: 30px
-} 
+  a {
+    padding-right: 30px;
+  }
 }
 
 /* Personalizando los iconos de redes */
 .facebook {
-    font-size: 20px;
-    color: rgb(30, 30, 133);
+  font-size: 20px;
+  color: rgb(30, 30, 133);
 }
 .twitter {
-    font-size: 20px;
-    color:rgb(42, 106, 167);
+  font-size: 20px;
+  color: rgb(42, 106, 167);
 }
-
 .mail {
-    font-size: 20px;
+  font-size: 20px;
+  color: rgb(110, 67, 18);
+  padding: 5px;
+  &:hover {
     color: rgb(110, 67, 18);
-    padding: 5px;
-    &:hover {
-        color: rgb(110, 67, 18);
-    }
+  }
 }
-.home  {
-    position:fixed;
-    width:40px;
-    height:40px;
-    bottom:50px;
-    right:30px;
-    font-size: 25px;
+.home {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 50px;
+  right: 30px;
+  font-size: 25px;
 }
 .iconoHome {
-    color: black;
+  color: black;
 }
 /* Todo lo anterior corresponde al index */
 
 /* A partir de acá, comenzamos con la pagina "Products" */
 
-
-
 .variedad {
-    margin-top: 20px;
-    padding: 15px;
-    background-color: $colorVariedad;;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: $colorVariedad;
 }
-
 .tituloVariedad {
-    font-size: 25px;
-    text-align: center;
-    color: rgb(156, 144, 144);
+  font-size: 25px;
+  text-align: center;
+  color: rgb(156, 144, 144);
 }
-
 .card .mb-3 {
-    max-width: 100%;
+  max-width: 100%;
 }
-.row{
-    align-items: center;
+.row {
+  align-items: center;
 }
-
 .tipoCafe {
-    color:rgb(156, 144, 144);
-    padding-top: 10px;
-    text-align: center;
-
+  color: rgb(156, 144, 144);
+  padding-top: 10px;
+  text-align: center;
 }
-
 .flexContainer {
-    @include flex(space-evenly, center);
-    margin-top: 30px;
+  @include flex(space-evenly, center);
+  margin-top: 30px;
 }
-
 .flexContainer {
-    img {
+  img {
     width: 500px;
     filter: brightness(60%);
+  }
 }
-
+.titulo__1 {
+  font-size: 3.5rem;
+  padding: 15px;
+  text-align: center;
+  color: $colorVariedad;
 }
-.titulo__1{
-    font-size: 3.5rem;
-    padding: 15px;
-    text-align: center;
-    color:$colorVariedad;
+.parrafo__1 {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 400px;
+  padding-left: 30px;
+  color: black;
 }
-.parrafo__1{
-    text-align: center;
-    font-size: 1.5rem;
-    width: 400px;
-    padding-left: 30px;
-    color: black;
-}
-.parrafo__2{
-    text-align: center;
-    font-size: 1.5rem;
-    width: 400px;
-    padding-left: 30px;
-    color: black;
-}
-
-.flexContainer2 {
-    @include flex(space-evenly, center);
-    flex-direction: row-reverse;
-    margin-top: 30px;
-
+.parrafo__2 {
+  text-align: center;
+  font-size: 1.5rem;
+  width: 400px;
+  padding-left: 30px;
+  color: black;
 }
 .flexContainer2 {
-    img {
+  @include flex(space-evenly, center);
+  flex-direction: row-reverse;
+  margin-top: 30px;
+}
+.flexContainer2 {
+  img {
     width: 500px;
     height: 600px;
     object-fit: cover;
     filter: brightness(60%);
     margin-bottom: 20px;
     margin-top: 20px;
+  }
 }
-
-}
-
 .articulo__1 {
-    font-size: 1.3rem;
-    padding: 15px;
-    text-align: center;
-    background-color:$colorVariedad;;
-    margin-bottom: 20px;
-    color: rgb(156, 144, 144);
+  font-size: 1.3rem;
+  padding: 15px;
+  text-align: center;
+  background-color: $colorVariedad;
+  margin-bottom: 20px;
+  color: rgb(156, 144, 144);
 }
-
-
-
 .caribe {
-    filter: brightness(70%);
+  filter: brightness(70%);
 }
-
 
 .rio {
-    filter: brightness(70%);
+  filter: brightness(70%);
 }
 
 .africa {
-    filter: brightness(70%);
+  filter: brightness(70%);
 }
 
 /* Todo lo anterior corresponde a la pagina Products */
@@ -213,138 +188,126 @@
 /* A partir de acá corresponde a la pagina benefit */
 
 .titulo__5 {
-    font-size: 5rem;
-    text-align: center;
-    padding: 20px;
-    color: $colorPrincipal;
-    opacity: 0.7;
-    
+  font-size: 5rem;
+  text-align: center;
+  padding: 20px;
+  color: $colorPrincipal;
+  opacity: 0.7;
 }
 .fondoTitulo {
-    display: flex;
-    justify-content: center;
-    background: url(../img/coffe1.jpg) no-repeat;
-    min-height: 80vh;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  justify-content: center;
+  background: url(../img/coffe1.jpg) no-repeat;
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
 }
 .container1 {
-    margin-top: 20px;
-    grid-area: container1;
-   
+  margin-top: 20px;
+  grid-area: container1;
 }
 
 .container2 {
-    /* background-color: brown; */
-    grid-column: span 2;
-    text-align: center;
-    font-size: 1.5rem;
-    grid-area: container2;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: $colorVariedad;;
-    color: $colorPrincipal;
-
+  grid-column: span 2;
+  text-align: center;
+  font-size: 1.5rem;
+  grid-area: container2;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: $colorVariedad;
+  color: $colorPrincipal;
 }
 
 .container3 {
-    /* background-color: aqua; */
-    grid-area: container3;
-    
+  grid-area: container3;
 }
 .container4 {
-    /* background-color: chocolate; */
-    grid-column: span 1;
-    font-size: 1rem;
-    width: 100%;
-    grid-area: container4;
-
+  grid-column: span 1;
+  font-size: 1rem;
+  width: 100%;
+  grid-area: container4;
 }
 
 .contenedorTilulo {
-    text-align: center;
-    padding: 30px;
-    
+  text-align: center;
+  padding: 30px;
 }
 .contenedorTilulo2 {
-    padding: 30px;
+  padding: 30px;
 }
 .contenedorTilulo3 {
-    padding: 30px;
+  padding: 30px;
 }
-
 
 .contenedorParrafo {
-    font-size: 1rem;
-    text-align: center;
+  font-size: 1rem;
+  text-align: center;
 }
 .seguinos {
-    grid-area: seguinos;
+  grid-area: seguinos;
 }
 h5 {
-    text-align: center;
-    
+  text-align: center;
 }
 .redes {
-    text-align: center;
-    grid-area: redes;
+  text-align: center;
+  grid-area: redes;
 }
 
 .imagenDiv {
-    img {
+  img {
     max-width: 100%;
     filter: brightness(50%);
-} 
+  }
 }
 .planta {
-    width: 100%;
-    filter: brightness(60%);
-    padding-bottom: 10px;
+  width: 100%;
+  filter: brightness(60%);
+  padding-bottom: 10px;
 }
 .cafe2 {
-    width: 100%;
-    filter: brightness(60%);
-    padding-bottom: 10px;
+  width: 100%;
+  filter: brightness(60%);
+  padding-bottom: 10px;
 }
 .cafe3 {
-    width: 100%;
-    filter: brightness(60%);
-    padding-bottom: 10px;
+  width: 100%;
+  filter: brightness(60%);
+  padding-bottom: 10px;
 }
 .footer {
-    grid-area: footer;
+  grid-area: footer;
 }
 /* Fin benefit */
 
 /* Comiendo Elaboration */
 
 .tituloE {
-    text-align: center;
-    font-size: 5rem;
-    margin-top: 30px;
-    font-family: 'Roboto Serif', sans-serif;
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 30px;
+  font-family: "Roboto Serif", sans-serif;
 }
 .elab {
-    max-width: 100%;
-    margin-bottom: 50px;
-    
+  max-width: 100%;
+  margin-bottom: 50px;
 }
 .parrafoE {
-    font-size: 1rem;
-    text-align: center;
-    padding-bottom: 20px;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 20px;
 }
 .tituloE2 {
-    font-size: 4rem;
-    text-align: center;
-    padding: 30px;
+  font-size: 4rem;
+  text-align: center;
+  padding: 30px;
 }
 .containerE2 {
-    @include flex(stretch, center);
-    // display: flex;    
-    // align-items: center;
-    flex-direction: column;
-    padding-bottom: 30px;
+  @include flex(stretch, center);
+  // display: flex;
+  // align-items: center;
+  flex-direction: column;
+  padding-bottom: 30px;
 }
 
 /* Fin Elaboration */
@@ -352,37 +315,33 @@ h5 {
 /* Comienzo Contactos */
 
 .formularios {
-    display: flex;
-    flex-direction: column;
-    margin: 0% auto;
-    max-width: 30%;
-    margin-top: 50px;
-    
+  display: flex;
+  flex-direction: column;
+  margin: 0% auto;
+  max-width: 30%;
+  margin-top: 50px;
 }
 .tituloComment {
-    text-align: center;
-    font-size: 3rem;
-    margin-top: 50px;
-    
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 50px;
 }
 
 .form-floating {
-    color: black;
+  color: black;
 }
 
 .form-select {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 .btn-comment {
-   text-align: end;   
+  text-align: end;
 }
 .btn-comment .btn {
-   color: black;
-   background-color: rgb(199, 171, 118);
-   margin-bottom: 30px;
+  color: black;
+  background-color: rgb(199, 171, 118);
+  margin-bottom: 30px;
 }
 .imgcomment img {
-  
- max-width: 100%;
- 
+  max-width: 100%;
 }
