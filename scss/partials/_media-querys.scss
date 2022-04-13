@@ -2,388 +2,371 @@
 
 /* Modelo Tablet */
 @media screen and (max-width: 1024px) {
+  /* Index */
 
-    /* Index */
+  .carousel-item img {
+    object-fit: cover;
+    height: 50vh;
+    max-width: 100%;
+    filter: brightness(60%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  // .cardHome {
+  //     height: auto;
+  // }
+  .homeP {
+    justify-content: flex-start;
+    min-height: 50vh;
+    background: url(../img/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+  }
 
-    .carousel-item  img {
-        object-fit: cover;
-        height: 50vh;
-        max-width: 100%;
-        filter: brightness(60%);
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    // .cardHome {
-    //     height: auto;
-    // }
-    .homeP {
-        justify-content: flex-start;
-        min-height: 50vh;
-        background: url(../img/home-img.jpeg) no-repeat;
-        background-size: cover;
-        background-position: center;
-        margin-top: 20px;
-        
-    }
-    
-      .homeP .content h3 {
-        font-family: 'Roboto Serif', sans-serif;
-        margin-top: 20px;
-        padding-left: 20px;
-        padding-top: 20px;
-        opacity: 0.4;
-        font-size: 3.5rem;
-        color: wheat;
-    }   
-    .card-img-top {
-        min-height: 300px;
-    }
-   
-    .card-title {
-        font-size: 1.5rem;
-    }
-    .card-text {
-        font-size: 0.80rem;
-    }
-    .seguinos {
-        text-align: center;
-        font-size: 1rem;
-    }
-    .redes {
-        text-align: center;
-        padding-bottom: 1.5rem;
-    }
-    .facebook {
-        font-size: 2rem;
-    }
-    .twitter {
-        font-size: 2rem;
-    }
-    .mail {
-        font-size: 2rem;
-    }
+  .homeP .content h3 {
+    font-family: "Roboto Serif", sans-serif;
+    margin-top: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    opacity: 0.4;
+    font-size: 3.5rem;
+    color: wheat;
+  }
+  .card-img-top {
+    min-height: 300px;
+  }
 
+  .card-title {
+    font-size: 1.5rem;
+  }
+  .card-text {
+    font-size: 0.8rem;
+  }
+  .seguinos {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .redes {
+    text-align: center;
+    padding-bottom: 1.5rem;
+  }
+  .facebook {
+    font-size: 2rem;
+  }
+  .twitter {
+    font-size: 2rem;
+  }
+  .mail {
+    font-size: 2rem;
+  }
 
-    .home  {
-        position:fixed;
-        width:20px;
-        height:20px;
-        bottom:25px;
-        right:40px;
-        font-size: 20px;
-    }
-  
-   
-    footer {
-        font-size: 0.8rem;
-        padding: 1rem;
-    }
-    /* Fin Index */
+  .home {
+    position: fixed;
+    width: 20px;
+    height: 20px;
+    bottom: 25px;
+    right: 40px;
+    font-size: 20px;
+  }
 
-    /* Comienzo beneficios */
-  
-    .fondoTitulo {
+  footer {
+    font-size: 0.8rem;
+    padding: 1rem;
+  }
+  /* Fin Index */
+
+  /* Comienzo beneficios */
+
+  .fondoTitulo {
     background: url(../img/coffe1.jpg) no-repeat;
     min-height: 60vh;
     background-size: cover;
     background-position: center;
-}
-   .titulo__5 {
+  }
+  .titulo__5 {
     font-size: 3.8rem;
     text-align: center;
     padding: 20px;
     color: $colorPrincipal;
     opacity: 0.7;
-    
-}
-    .cardBen {
-        height: auto;
-    }
+  }
+  .cardBen {
+    height: auto;
+  }
 
-    .container1 {
-        grid-column: span 3;
-    } 
-    .container2 {
-        
-        grid-column: span 2;
-        text-align: center;
-        font-size: 1rem;
-        grid-area: container2;
-        padding: 20px;
-        margin-bottom: 20px;
-        background-color: rgb(53, 18, 18);
-        color: wheat;
-    
-    }
-    .container3 {
-        grid-column: span 3;
-    }
-    .container4 {
-        grid-column: span 3;
-    }
-    .seguinos {
-        grid-column: span 3;
-    }
-    .redes {
-        grid-column: span 3;
-    }
-    .footer {
-        grid-column: span 3;
-    }
-    /* Fin beneficios */
+  .container1 {
+    grid-column: span 3;
+  }
+  .container2 {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 1rem;
+    grid-area: container2;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(53, 18, 18);
+    color: wheat;
+  }
+  .container3 {
+    grid-column: span 3;
+  }
+  .container4 {
+    grid-column: span 3;
+  }
+  .seguinos {
+    grid-column: span 3;
+  }
+  .redes {
+    grid-column: span 3;
+  }
+  .footer {
+    grid-column: span 3;
+  }
+  /* Fin beneficios */
 
-    /* Comiendo Productos */
+  /* Comiendo Productos */
 
-    .flexContainer {
-        flex-direction: column-reverse;
-    }
-    .parrafo__1 {
-        text-align: center;
-        font-size: 1.5rem;
-        width: auto;
-    }
-   
-    .flexContainer2 {
-        flex-direction: column-reverse;
-    }
-    .parrafo__2 {
-        text-align: center;
-        font-size: 1.5rem;
-        width: auto;
-    }
-    .titulo__4 {
-        color: wheat;
-        position: absolute;
-        top: 38%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding-bottom: 40px;
-    }
-    /* Fin Productos  */
-  
-    /* Comienzo Elaboration */
-    .containerE1 {
-        width: 90%;
-        
-    }
-    .tituloE {
-        text-align: center;
-        font-size: 3rem;
-        margin-top: 30px;
-        
-    }
-    .elab {
-        max-width: 100%;
-        /* border-radius: 5%; */
-        padding-bottom: 20px;
-    }
-    .parrafoE {
-        font-size: 1rem;
-        text-align: center;
-        padding-bottom: 20px;
-    }
-    .tituloE2 {
-        font-size: 2rem;
-        text-align: center;
-        padding: 30px;
-    }
-    .containerE2 {
-        display: flex;    
-        align-items: center;
-        flex-direction: column;
-        padding-bottom: 30px;
-    }
-    .containerE2 iframe{
-        max-width: 100%;
-    }
-    /* Fin Elaboration */
+  .flexContainer {
+    flex-direction: column-reverse;
+  }
+  .parrafo__1 {
+    text-align: center;
+    font-size: 1.5rem;
+    width: auto;
+  }
 
-    /* Comienzo Contactos */
+  .flexContainer2 {
+    flex-direction: column-reverse;
+  }
+  .parrafo__2 {
+    text-align: center;
+    font-size: 1.5rem;
+    width: auto;
+  }
+  .titulo__4 {
+    color: wheat;
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 40px;
+  }
+  /* Fin Productos  */
 
-    .form {
-        display: flex;
-        flex-direction: column;
-        font-size: 0.7rem;
-    }
-    .tituloC {
-        font-size: 0.75rem;
-    }
+  /* Comienzo Elaboration */
+  .containerE1 {
+    width: 90%;
+  }
+  .tituloE {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+  .elab {
+    max-width: 100%;
+    /* border-radius: 5%; */
+    padding-bottom: 20px;
+  }
+  .parrafoE {
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .tituloE2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+  }
+  .containerE2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
+  .containerE2 iframe {
+    max-width: 100%;
+  }
+  /* Fin Elaboration */
 
+  /* Comienzo Contactos */
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    font-size: 0.7rem;
+  }
+  .tituloC {
+    font-size: 0.75rem;
+  }
 }
 
-    /* Modelo mobile */
-@media screen and (max-width: 768px){
-    /* Index */
+/* Modelo mobile */
+@media screen and (max-width: 768px) {
+  /* Index */
 
-    .carousel-item  img {
-        object-fit: cover;
-        height: 30vh;
-        max-width: 100%;
-        filter: brightness(60%);
-        margin-top: 10px;
-        margin-bottom: 10px;
-      }
-    .logo {
-        border-radius: 50%;
-    }
-    .navbar-toggler-icon {
-        width: 20px;
-        height: 20px;
-    } 
-     .cardHome {
-        height: 100%;
-    }
-    .homeP {
-        min-height: 30vh;
-        background: url(../img/home-img.jpeg) no-repeat;
-        filter: brightness(80%);
-        background-size: cover;
-        background-position: center;
-        
-      }
-    
-      .homeP .content h3 {
-        font-family: 'Roboto Serif', cursive;
-        margin-top: 20px;
-        font-size: 1.5rem;
-        color: wheat;
-        opacity: 0.4;
-        padding-left: 20px;
-        padding-top: 0;
-      }
-  
-    
-    footer {
-        font-size: 0.5rem;
-        padding: 1rem;
-    }
-    /* Fin index */
-    
+  .carousel-item img {
+    object-fit: cover;
+    height: 30vh;
+    max-width: 100%;
+    filter: brightness(60%);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .logo {
+    border-radius: 50%;
+  }
+  .navbar-toggler-icon {
+    width: 20px;
+    height: 20px;
+  }
+  .cardHome {
+    height: 100%;
+  }
+  .homeP {
+    min-height: 30vh;
+    background: url(../img/home-img.jpeg) no-repeat;
+    filter: brightness(80%);
+    background-size: cover;
+    background-position: center;
+  }
 
-    /* Comienzo beneficios */
-    
-    .fondoTitulo {
-        background: url(../img/coffe1.jpg) no-repeat;
-        min-height: 40vh;
-        background-size: cover;
-        background-position: center;
-    }
-    .cardBen {
-        height: auto;
-    }
-    .titulo__5 {
-        font-size: 1.5rem;    
-    }
-    .parrafo6 {
-            font-size: 0.5rem;
-            
-    }
-    .container2 {
-            grid-column: span 3;
-            font-size: 0.7rem;
-    }
-    .card-img-top {
-        min-height: auto;
-    }
-    .seguinos {
-            grid-column: span 3;
-    }
-    .redes {
-            grid-column: span 3;
-    }
-    .footer {
-            grid-column: span 3;
-        }
+  .homeP .content h3 {
+    font-family: "Roboto Serif", cursive;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: wheat;
+    opacity: 0.4;
+    padding-left: 20px;
+    padding-top: 0;
+  }
 
-    /* Fin beneficios */
+  footer {
+    font-size: 0.5rem;
+    padding: 1rem;
+  }
+  /* Fin index */
 
-    /* Comienzo Productos */
-    
-    .variedad {
-        margin-top: 20px;
-        
-    }
-    
-    .tituloVariedad {
-        font-size: 1rem;
-    }
-    .tipoCafe {
-        font-size: 0.7rem;
-    }
+  /* Comienzo beneficios */
 
-    .flexContainer {
-        flex-direction: column-reverse ;
-    }
-    .titulo__1 {
-        font-size: 2.5rem;
-    }
-    .parrafo__1 {
-        font-size: 0.9rem;
-    }
-    .flexContainer img {
-        width: 300px;
-       
-    }
-    .flexContainer2 {
-        flex-direction: column-reverse;
-    }
-    .flexContainer2 img {
-        width: 300px;
-        height: 300px;
-    }
-    .parrafo__2 {
-        font-size: 0.9rem;
-    }
-    .titulo__4 {
-        font-size: 1rem;
-        padding-bottom: 60px;
-    }
-    .parrafo__5{
-        font-size: 0.5rem;
-        padding-top: 20px;
-    }
-    .articulo__1 {
-        font-size: 0.7rem;
-    }
-   /* Fin Productos  */
+  .fondoTitulo {
+    background: url(../img/coffe1.jpg) no-repeat;
+    min-height: 40vh;
+    background-size: cover;
+    background-position: center;
+  }
+  .cardBen {
+    height: auto;
+  }
+  .titulo__5 {
+    font-size: 1.5rem;
+  }
+  .parrafo6 {
+    font-size: 0.5rem;
+  }
+  .container2 {
+    grid-column: span 3;
+    font-size: 0.7rem;
+  }
+  .card-img-top {
+    min-height: auto;
+  }
+  .seguinos {
+    grid-column: span 3;
+  }
+  .redes {
+    grid-column: span 3;
+  }
+  .footer {
+    grid-column: span 3;
+  }
 
-    /* Comienzo Elaboration */
+  /* Fin beneficios */
 
-    .tituloE {
-        text-align: center;
-        font-size: 2rem;
-    }
-   
- 
-    .tituloE2 {
-        font-size: 1.5rem;
-        text-align: center;
-        padding: 30px;
-    }
-      
-    /* Fin Elaboration */
+  /* Comienzo Productos */
 
-    /* Comienzo Contacts */
-    .formularios {
-        max-width: 90%;
-    }
-    .form-select {
-        font-size: 0.6rem;   
-    }
-    .form-label {
-        font-size: 0.8rem;
-    }
-    .form-floating {
-        font-size: 0.6rem;
-    }
-    .btn-comment .btn {
-        font-size: 0.5rem;
-    }
-    #exampleFormControlInput1 {
-        font-size: 0.6rem;
-    }
-    .tituloComment {
-      text-align: center;
-      font-size: 2rem;
+  .variedad {
+    margin-top: 20px;
+  }
+
+  .tituloVariedad {
+    font-size: 1rem;
+  }
+  .tipoCafe {
+    font-size: 0.7rem;
+  }
+
+  .flexContainer {
+    flex-direction: column-reverse;
+  }
+  .titulo__1 {
+    font-size: 2.5rem;
+  }
+  .parrafo__1 {
+    font-size: 0.9rem;
+  }
+  .flexContainer img {
+    width: 300px;
+  }
+  .flexContainer2 {
+    flex-direction: column-reverse;
+  }
+  .flexContainer2 img {
+    width: 300px;
+    height: 300px;
+  }
+  .parrafo__2 {
+    font-size: 0.9rem;
+  }
+  .titulo__4 {
+    font-size: 1rem;
+    padding-bottom: 60px;
+  }
+  .parrafo__5 {
+    font-size: 0.5rem;
+    padding-top: 20px;
+  }
+  .articulo__1 {
+    font-size: 0.7rem;
+  }
+  /* Fin Productos  */
+
+  /* Comienzo Elaboration */
+
+  .tituloE {
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .tituloE2 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 30px;
+  }
+
+  /* Fin Elaboration */
+
+  /* Comienzo Contacts */
+  .formularios {
+    max-width: 90%;
+  }
+  .form-select {
+    font-size: 0.6rem;
+  }
+  .form-label {
+    font-size: 0.8rem;
+  }
+  .form-floating {
+    font-size: 0.6rem;
+  }
+  .btn-comment .btn {
+    font-size: 0.5rem;
+  }
+  #exampleFormControlInput1 {
+    font-size: 0.6rem;
+  }
+  .tituloComment {
+    text-align: center;
+    font-size: 2rem;
   }
 }
