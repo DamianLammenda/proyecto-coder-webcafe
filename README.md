@@ -1,4 +1,3 @@
-# proyecto-coder-webcafe
 # El Mundo del Café
 ## Sitio informativo dedicado al café
 
